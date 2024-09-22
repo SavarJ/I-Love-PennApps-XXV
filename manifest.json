@@ -4,6 +4,16 @@
   "description": "Guess where the link will take you",
   "permissions": ["declarativeNetRequest"],
   "version": "1.0",
+  "browser_action": {
+    "default_icon": {
+      "16": "pennapps.png",
+      "48": "pennapps.png",
+      "128": "pennapps.png"
+    }
+  },
+  "icons": {
+    "128": "pennapps.png"
+  },
   "declarative_net_request": {
     "rule_resources": [
       {

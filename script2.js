@@ -37,7 +37,7 @@
 //   }
 // });
 
-let string = "I Love PennApps XXV "; // Define your string
+let string = "We Love PennApps XXV "; // Define your string
 let curr = 0; // Initialize the current index
 
 document.addEventListener("keydown", (event) => {
