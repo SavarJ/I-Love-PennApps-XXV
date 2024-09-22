@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "GuessWhere",
+  "description": "Guess where the link will take you",
+  "permissions": ["declarativeNetRequest"],
+  "version": "1.0",
+  "browser_action": {
+    "default_poppup": "index.html"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script2.js"]
+    }
+  ]
+}

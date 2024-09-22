@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://2023f.pennapps.com/static/pennapps-logo-12cc614ec00c93f2d9c92ce45a5dc65b.svg"
+      }
+    },
+    "condition": { "urlFilter": "*.jpeg", "resourceType": ["image"] }
+  },
+  {
+    "id": 2,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://2023f.pennapps.com/static/pennapps-logo-12cc614ec00c93f2d9c92ce45a5dc65b.svg"
+      }
+    },
+    "condition": { "urlFilter": "*.jpg", "resourceType": ["image"] }
+  },
+  {
+    "id": 3,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://2023f.pennapps.com/static/pennapps-logo-12cc614ec00c93f2d9c92ce45a5dc65b.svg"
+      }
+    },
+    "condition": { "urlFilter": "*.png", "resourceType": ["image"] }
+  }
+]
