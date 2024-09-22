@@ -5,7 +5,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "url": "https://2023f.pennapps.com/static/pennapps-logo-12cc614ec00c93f2d9c92ce45a5dc65b.svg"
+        "url": "https://2024f.pennapps.com/static/PennAppsLogo-e019993b6111026ee36a915afe40db7c.png"
       }
     },
     "condition": { "urlFilter": "*.jpeg", "resourceType": ["image"] }
@@ -16,7 +16,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "url": "https://2023f.pennapps.com/static/pennapps-logo-12cc614ec00c93f2d9c92ce45a5dc65b.svg"
+        "url": "https://2024f.pennapps.com/static/PennAppsLogo-e019993b6111026ee36a915afe40db7c.png"
       }
     },
     "condition": { "urlFilter": "*.jpg", "resourceType": ["image"] }
@@ -27,7 +27,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "url": "https://2023f.pennapps.com/static/pennapps-logo-12cc614ec00c93f2d9c92ce45a5dc65b.svg"
+        "url": "https://2024f.pennapps.com/static/PennAppsLogo-e019993b6111026ee36a915afe40db7c.png"
       }
     },
     "condition": { "urlFilter": "*.png", "resourceType": ["image"] }

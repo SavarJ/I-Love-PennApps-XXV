@@ -4,9 +4,6 @@
   "description": "Guess where the link will take you",
   "permissions": ["declarativeNetRequest"],
   "version": "1.0",
-  "browser_action": {
-    "default_poppup": "index.html"
-  },
   "declarative_net_request": {
     "rule_resources": [
       {
